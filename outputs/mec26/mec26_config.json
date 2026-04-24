@@ -1,0 +1,24 @@
+{
+    "composer_subset": [
+        "Haydn",
+        "Mozart",
+        "Beethoven",
+        "Schubert",
+        "Schumann"
+    ],
+    "align_configs": {
+        "ioi_threshold": 0.03,
+        "max_threshold": 0.5,
+        "alpha": 0.85,
+        "harmonic_metric": "jaccard",
+        "pitch_feature": "pc_set"
+    },
+    "cluster_params": {
+        "method": "ward",
+        "cost_weight": 2.0,
+        "stretch_opt_weight": 0.7,
+        "stretch_avg_weight": 0.3,
+        "length_weight": 0.0,
+        "dist_thresh": 0.7
+    }
+}
